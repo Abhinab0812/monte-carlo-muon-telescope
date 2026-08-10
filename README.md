@@ -75,6 +75,30 @@ The detector noise and true-muon arrival processes are modeled using Poisson sta
 
 ## Results
 
+### Angular distribution
+
+The sampled muon directions follow the simplified \(\cos^2\theta\) model used in the simulation.
+
+![Muon angular distribution](figures/angular_distribution.png)
+
+### Muon trajectories
+
+The geometry simulation propagates sampled trajectories between the two detector layers.
+
+![Muon trajectories](figures/muon_trajectories.png)
+
+### Energy loss
+
+The initial and final energy distributions illustrate the effect of the simplified path-length-dependent energy-loss model.
+
+![Initial and final energy spectra](figures/energy_spectrum.png)
+
+### Path length
+
+Inclined trajectories travel a longer distance between the detector layers.
+
+![Path length distribution](figures/path_length_distribution.png)
+
 ### Geometry-only simulation
 
 For 10,000 simulated muons:
@@ -109,6 +133,18 @@ For a 60-second simulation:
 | Rough expected accidental coincidences | 0.24 |
 
 The accidental-coincidence expectation is a rough estimate based on the detector noise rates and coincidence time bin.
+
+### Time-series detector activity
+
+The first 2 seconds of the simulated detector time series are shown below.
+
+![Muon telescope time series](figures/time_series.png)
+
+### Hit multiplicity
+
+The distribution of hits per 1 ms time bin is shown below.
+
+![Hit multiplicity per bin](figures/hit_multiplicity.png)
 
 ## Visualizations
 
@@ -175,6 +211,6 @@ This project was developed to understand the computational and physical ideas be
 ## Author
 
 Abhinab
-Undergraduate Student  
-IISER Berhampur
 
+Physics Undergraduate Student  
+IISER Berhampur
