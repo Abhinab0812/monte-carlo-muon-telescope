@@ -212,5 +212,5 @@ This project was developed to understand the computational and physical ideas be
 
 Abhinab
 
-Physics Undergraduate Student  
+Undergraduate Student  
 IISER Berhampur
