@@ -210,7 +210,7 @@ This project was developed to understand the computational and physical ideas be
 
 ## Author
 
-Abhinab
+Abhinab Ghosh 
 
 Undergraduate Student  
 IISER Berhampur
